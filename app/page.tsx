@@ -15,7 +15,7 @@ export default async function Home() {
         {data.map((item: any) => (
           <li key={item.id} className="mb-5">
             <h2>{item.title}</h2>
-            <p>User ID: {item.userId}</p>
+            <p>Users ID: {item.userId}</p>
             <p>ID: {item.id}</p>
             <p>Description: {item.body}</p>
           </li>
